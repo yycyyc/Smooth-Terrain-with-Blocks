@@ -1,3 +1,5 @@
+<img src="img.png" width="800" />
+
 This project subdivides nodes where terrain and block meet and creates meshes using adaptive dual contouring.
 Also, it uses LOD to render both terrain and blocks at a distance.
 
