@@ -1,0 +1,1893 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Camera Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 1684919987541845124}
+  - {fileID: 3844091125768394114}
+  - {fileID: 4811493972342730473}
+--- !u!114 &846096280596688531
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c133717c76e564a5fa90d7f12908d17e, type: 3}
+  m_Name: Beautify
+  m_EditorClassIdentifier: 
+  active: 1
+  disabled:
+    m_OverrideState: 1
+    m_Value: 0
+  compareMode:
+    m_OverrideState: 1
+    m_Value: 0
+  compareStyle:
+    m_OverrideState: 0
+    m_Value: 0
+  comparePanning:
+    m_OverrideState: 0
+    m_Value: 0.25
+  compareLineAngle:
+    m_OverrideState: 0
+    m_Value: 1.4
+  compareLineWidth:
+    m_OverrideState: 0
+    m_Value: 0.002
+  flipY:
+    m_OverrideState: 1
+    m_Value: 0
+  hideInSceneView:
+    m_OverrideState: 1
+    m_Value: 0
+  debugOutput:
+    m_OverrideState: 0
+    m_Value: 0
+  turboMode:
+    m_OverrideState: 1
+    m_Value: 0
+  directWrite:
+    m_OverrideState: 1
+    m_Value: 0
+  ignoreDepthTexture:
+    m_OverrideState: 1
+    m_Value: 0
+  downsampling:
+    m_OverrideState: 1
+    m_Value: 0
+  downsamplingMode:
+    m_OverrideState: 0
+    m_Value: 0
+  downsamplingMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  downsamplingBilinear:
+    m_OverrideState: 0
+    m_Value: 0
+  sharpenIntensity:
+    m_OverrideState: 0
+    m_Value: 4
+  sharpenDepthThreshold:
+    m_OverrideState: 0
+    m_Value: 0.035
+  sharpenMinMaxDepth:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0.999}
+    min: 0
+    max: 1.1
+  sharpenMinMaxDepthFallOff:
+    m_OverrideState: 0
+    m_Value: 0
+  sharpenRelaxation:
+    m_OverrideState: 0
+    m_Value: 0.08
+  sharpenClamp:
+    m_OverrideState: 0
+    m_Value: 0.45
+  sharpenMotionSensibility:
+    m_OverrideState: 0
+    m_Value: 0.5
+  sharpenMotionRestoreSpeed:
+    m_OverrideState: 0
+    m_Value: 0.5
+  antialiasStrength:
+    m_OverrideState: 0
+    m_Value: 0
+  antialiasDepthThreshold:
+    m_OverrideState: 0
+    m_Value: 0.000001
+  antialiasSpread:
+    m_OverrideState: 0
+    m_Value: 3
+  antialiasDepthAttenuation:
+    m_OverrideState: 0
+    m_Value: 0
+  tonemap:
+    m_OverrideState: 1
+    m_Value: 1
+  tonemapAGXGamma:
+    m_OverrideState: 0
+    m_Value: 2.5
+  tonemapMaxInputBrightness:
+    m_OverrideState: 0
+    m_Value: 1000
+  tonemapExposurePre:
+    m_OverrideState: 0
+    m_Value: 1
+  tonemapBrightnessPost:
+    m_OverrideState: 0
+    m_Value: 1
+  saturate:
+    m_OverrideState: 1
+    m_Value: 0
+  brightness:
+    m_OverrideState: 0
+    m_Value: 1.05
+  contrast:
+    m_OverrideState: 1
+    m_Value: 1
+  daltonize:
+    m_OverrideState: 0
+    m_Value: 0
+  sepia:
+    m_OverrideState: 0
+    m_Value: 0
+  tintColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+  colorTempBlend:
+    m_OverrideState: 0
+    m_Value: 0
+  colorTemp:
+    m_OverrideState: 0
+    m_Value: 6550
+  lut:
+    m_OverrideState: 0
+    m_Value: 0
+  lutIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  lutTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  bloomIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomThreshold:
+    m_OverrideState: 0
+    m_Value: 0.75
+  bloomConservativeThreshold:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomSpread:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomMaxBrightness:
+    m_OverrideState: 0
+    m_Value: 1000
+  bloomTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 1, a: 0}
+  bloomDepthAtten:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomNearAtten:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomExcludeLayers:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomLayersFilterMethod:
+    m_OverrideState: 0
+    m_Value: 1
+  bloomExclusionLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 0
+  bloomAntiflicker:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomResolution:
+    m_OverrideState: 0
+    m_Value: 1
+  bloomQuickerBlur:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomCustomize:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomWeight0:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost0:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint0:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomWeight1:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost1:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint1:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomWeight2:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost2:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint2:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomWeight3:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost3:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint3:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomWeight4:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost4:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint4:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomWeight5:
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost5:
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint5:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  anamorphicFlaresIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresThreshold:
+    m_OverrideState: 0
+    m_Value: 0.75
+  anamorphicFlaresConservativeThreshold:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 1, a: 0}
+  anamorphicFlaresVertical:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresSpread:
+    m_OverrideState: 0
+    m_Value: 1
+  anamorphicFlaresMaxBrightness:
+    m_OverrideState: 0
+    m_Value: 1000
+  anamorphicFlaresDepthAtten:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresNearAtten:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresExcludeLayers:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresLayersFilterMethod:
+    m_OverrideState: 0
+    m_Value: 1
+  anamorphicFlaresExclusionLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 0
+  anamorphicFlaresAntiflicker:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresResolution:
+    m_OverrideState: 0
+    m_Value: 1
+  anamorphicFlaresQuickerBlur:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresTint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  sunFlaresSolarWindSpeed:
+    m_OverrideState: 0
+    m_Value: 0.01
+  sunFlaresRotationDeadZone:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresDownsampling:
+    m_OverrideState: 0
+    m_Value: 1
+  sunFlaresDepthOcclusionMode:
+    m_OverrideState: 0
+    m_Value: 1
+  sunFlaresDepthOcclusionThreshold:
+    m_OverrideState: 0
+    m_Value: 0.5
+  sunFlaresUseLayerMask:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  sunFlaresAttenSpeed:
+    m_OverrideState: 0
+    m_Value: 30
+  sunFlaresSunIntensity:
+    m_OverrideState: 0
+    m_Value: 0.1
+  sunFlaresSunDiskSize:
+    m_OverrideState: 0
+    m_Value: 0.05
+  sunFlaresSunRayDiffractionIntensity:
+    m_OverrideState: 0
+    m_Value: 3.5
+  sunFlaresSunRayDiffractionThreshold:
+    m_OverrideState: 0
+    m_Value: 0.13
+  sunFlaresCoronaRays1Length:
+    m_OverrideState: 0
+    m_Value: 0.02
+  sunFlaresCoronaRays1Streaks:
+    m_OverrideState: 0
+    m_Value: 12
+  sunFlaresCoronaRays1Spread:
+    m_OverrideState: 0
+    m_Value: 0.001
+  sunFlaresCoronaRays1AngleOffset:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresCoronaRays2Length:
+    m_OverrideState: 0
+    m_Value: 0.05
+  sunFlaresCoronaRays2Streaks:
+    m_OverrideState: 0
+    m_Value: 12
+  sunFlaresCoronaRays2Spread:
+    m_OverrideState: 0
+    m_Value: 0.1
+  sunFlaresCoronaRays2AngleOffset:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresGhosts1Size:
+    m_OverrideState: 0
+    m_Value: 0.03
+  sunFlaresGhosts1Offset:
+    m_OverrideState: 0
+    m_Value: 1.04
+  sunFlaresGhosts1Brightness:
+    m_OverrideState: 0
+    m_Value: 0.037
+  sunFlaresGhosts2Size:
+    m_OverrideState: 0
+    m_Value: 0.1
+  sunFlaresGhosts2Offset:
+    m_OverrideState: 0
+    m_Value: 0.71
+  sunFlaresGhosts2Brightness:
+    m_OverrideState: 0
+    m_Value: 0.03
+  sunFlaresGhosts3Size:
+    m_OverrideState: 0
+    m_Value: 0.24
+  sunFlaresGhosts3Offset:
+    m_OverrideState: 0
+    m_Value: 0.31
+  sunFlaresGhosts3Brightness:
+    m_OverrideState: 0
+    m_Value: 0.025
+  sunFlaresGhosts4Size:
+    m_OverrideState: 0
+    m_Value: 0.016
+  sunFlaresGhosts4Offset:
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresGhosts4Brightness:
+    m_OverrideState: 0
+    m_Value: 0.017
+  sunFlaresHaloOffset:
+    m_OverrideState: 0
+    m_Value: 0.22
+  sunFlaresHaloAmplitude:
+    m_OverrideState: 0
+    m_Value: 15.1415
+  sunFlaresHaloIntensity:
+    m_OverrideState: 0
+    m_Value: 0.01
+  lensDirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  lensDirtThreshold:
+    m_OverrideState: 0
+    m_Value: 0.5
+  lensDirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  lensDirtSpread:
+    m_OverrideState: 0
+    m_Value: 3
+  chromaticAberrationIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  chromaticAberrationShift:
+    m_OverrideState: 0
+    m_Value: 0
+  chromaticAberrationSmoothing:
+    m_OverrideState: 0
+    m_Value: 0
+  chromaticAberrationSeparatePass:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfField:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldFocusMode:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAutofocusMinDistance:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAutofocusMaxDistance:
+    m_OverrideState: 0
+    m_Value: 10000
+  depthOfFieldTargetFallback:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldTargetFallbackFixedDistance:
+    m_OverrideState: 0
+    m_Value: 1000
+  depthOfFieldAutofocusViewportPoint:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  depthOfFieldAutofocusDistanceShift:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAutofocusLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  depthOfFieldDistance:
+    m_OverrideState: 0
+    m_Value: 10
+  depthOfFieldCameraSettings:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldFocalLength:
+    m_OverrideState: 0
+    m_Value: 0.05
+  depthOfFieldAperture:
+    m_OverrideState: 0
+    m_Value: 2.8
+  depthOfFieldFocalLengthReal:
+    m_OverrideState: 0
+    m_Value: 50
+  depthOfFieldFStop:
+    m_OverrideState: 0
+    m_Value: 2
+  depthOfFieldImageSensorHeight:
+    m_OverrideState: 0
+    m_Value: 24
+  depthOfFieldFocusSpeed:
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldTransparentSupport:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldTransparentLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 1
+  depthOfFieldTransparentDoubleSided:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAlphaTestSupport:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAlphaTestLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 1
+  depthOfFieldAlphaTestDoubleSided:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldForegroundBlur:
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldForegroundBlurHQ:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldForegroundBlurHQSpread:
+    m_OverrideState: 0
+    m_Value: 4
+  depthOfFieldForegroundDistance:
+    m_OverrideState: 0
+    m_Value: 0.25
+  depthOfFieldBokeh:
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldBokehComposition:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldBokehThreshold:
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldBokehIntensity:
+    m_OverrideState: 0
+    m_Value: 2
+  depthOfFieldDownsampling:
+    m_OverrideState: 0
+    m_Value: 2
+  depthOfFieldMaxSamples:
+    m_OverrideState: 0
+    m_Value: 6
+  depthOfFieldMaxBrightness:
+    m_OverrideState: 0
+    m_Value: 1000
+  depthOfFieldMaxBlurRadius:
+    m_OverrideState: 0
+    m_Value: 1000
+  depthOfFieldResolutionInvariant:
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldMaxDistance:
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldFilterMode:
+    m_OverrideState: 0
+    m_Value: 1
+  eyeAdaptation:
+    m_OverrideState: 0
+    m_Value: 0
+  eyeAdaptationMinExposure:
+    m_OverrideState: 0
+    m_Value: 0.2
+  eyeAdaptationMaxExposure:
+    m_OverrideState: 0
+    m_Value: 5
+  eyeAdaptationSpeedToLight:
+    m_OverrideState: 0
+    m_Value: 0.4
+  eyeAdaptationSpeedToDark:
+    m_OverrideState: 0
+    m_Value: 0.2
+  eyeAdaptationMeteringMode:
+    m_OverrideState: 0
+    m_Value: 0
+  eyeAdaptationMinCameraDistance:
+    m_OverrideState: 0
+    m_Value: 0
+  eyeAdaptationMask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  purkinje:
+    m_OverrideState: 0
+    m_Value: 0
+  purkinjeAmount:
+    m_OverrideState: 0
+    m_Value: 1
+  purkinjeLuminanceThreshold:
+    m_OverrideState: 0
+    m_Value: 0.15
+  vignettingOuterRing:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingInnerRing:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingFade:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingCircularShape:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingCircularShapeFitMode:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingAspectRatio:
+    m_OverrideState: 0
+    m_Value: 1
+  vignettingBlink:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingBlinkStyle:
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingCenter:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  vignettingColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  vignettingMask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  outline:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 0.8}
+  outlineTechnique:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineMinSeparation:
+    m_OverrideState: 0
+    m_Value: 1
+  outlineThreshold:
+    m_OverrideState: 0
+    m_Value: 0.2
+  outlineMinDepthThreshold:
+    m_OverrideState: 0
+    m_Value: 0.0005
+  outlineSaturationDiffThreshold:
+    m_OverrideState: 0
+    m_Value: 0.015
+  outlineCustomize:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  outlineStageParameter:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineSpread:
+    m_OverrideState: 0
+    m_Value: 1
+  outlineBlurPassCount:
+    m_OverrideState: 0
+    m_Value: 1
+  outlineBlurDownscale:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineIntensityMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  outlineDistanceFade:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineUsesOptimizedShader:
+    m_OverrideState: 0
+    m_Value: 0
+  outlineLayerCutOff:
+    m_OverrideState: 0
+    m_Value: 0
+  nightVision:
+    m_OverrideState: 0
+    m_Value: 0
+  nightVisionColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 1, b: 0.5, a: 0.5}
+  nightVisionDepth:
+    m_OverrideState: 0
+    m_Value: 100000
+  nightVisionDepthFallOff:
+    m_OverrideState: 0
+    m_Value: 1
+  thermalVision:
+    m_OverrideState: 0
+    m_Value: 0
+  thermalVisionScanLines:
+    m_OverrideState: 0
+    m_Value: 1
+  thermalVisionDistortionAmount:
+    m_OverrideState: 0
+    m_Value: 9
+  ditherIntensity:
+    m_OverrideState: 0
+    m_Value: 0.005
+  frame:
+    m_OverrideState: 0
+    m_Value: 0
+  frameStyle:
+    m_OverrideState: 0
+    m_Value: 0
+  frameBandHorizontalSize:
+    m_OverrideState: 0
+    m_Value: 0
+  frameBandHorizontalSmoothness:
+    m_OverrideState: 0
+    m_Value: 0
+  frameBandVerticalSize:
+    m_OverrideState: 0
+    m_Value: 0.1
+  frameBandVerticalSmoothness:
+    m_OverrideState: 0
+    m_Value: 0
+  frameColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 0.047}
+  frameMask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  blurIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  blurMask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  blurKeepSourceOnTop:
+    m_OverrideState: 0
+    m_Value: 0
+  blurSourceRect:
+    m_OverrideState: 0
+    m_Value: {x: 0.1, y: 0.1, z: 0.8, w: 0.8}
+  blurSourceEdgeBlendWidth:
+    m_OverrideState: 0
+    m_Value: 0
+  blurSourceEdgeBlendStrength:
+    m_OverrideState: 0
+    m_Value: 20
+--- !u!114 &1684919987541845124
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 1
+  contrast:
+    m_OverrideState: 1
+    m_Value: 30
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 0.8725431, g: 1.1289061, b: 1.4142135, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &3304748062838125992
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c133717c76e564a5fa90d7f12908d17e, type: 3}
+  m_Name: Beautify
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: 
+  disabled:
+    <debugId>k__BackingField: disabled
+    m_OverrideState: 1
+    m_Value: 0
+  compareMode:
+    <debugId>k__BackingField: compareMode
+    m_OverrideState: 1
+    m_Value: 0
+  compareStyle:
+    <debugId>k__BackingField: compareStyle
+    m_OverrideState: 0
+    m_Value: 0
+  comparePanning:
+    <debugId>k__BackingField: comparePanning
+    m_OverrideState: 0
+    m_Value: 0.25
+  compareLineAngle:
+    <debugId>k__BackingField: compareLineAngle
+    m_OverrideState: 0
+    m_Value: 1.4
+  compareLineWidth:
+    <debugId>k__BackingField: compareLineWidth
+    m_OverrideState: 0
+    m_Value: 0.002
+  flipY:
+    <debugId>k__BackingField: flipY
+    m_OverrideState: 1
+    m_Value: 0
+  hideInSceneView:
+    <debugId>k__BackingField: hideInSceneView
+    m_OverrideState: 1
+    m_Value: 0
+  debugOutput:
+    <debugId>k__BackingField: debugOutput
+    m_OverrideState: 0
+    m_Value: 0
+  turboMode:
+    <debugId>k__BackingField: turboMode
+    m_OverrideState: 1
+    m_Value: 0
+  directWrite:
+    <debugId>k__BackingField: directWrite
+    m_OverrideState: 1
+    m_Value: 0
+  ignoreDepthTexture:
+    <debugId>k__BackingField: ignoreDepthTexture
+    m_OverrideState: 1
+    m_Value: 0
+  downsampling:
+    <debugId>k__BackingField: downsampling
+    m_OverrideState: 1
+    m_Value: 0
+  downsamplingMode:
+    <debugId>k__BackingField: downsamplingMode
+    m_OverrideState: 0
+    m_Value: 0
+  downsamplingMultiplier:
+    <debugId>k__BackingField: downsamplingMultiplier
+    m_OverrideState: 0
+    m_Value: 1
+  downsamplingBilinear:
+    <debugId>k__BackingField: downsamplingBilinear
+    m_OverrideState: 0
+    m_Value: 0
+  sharpenIntensity:
+    <debugId>k__BackingField: sharpenIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  sharpenDepthThreshold:
+    <debugId>k__BackingField: sharpenDepthThreshold
+    m_OverrideState: 0
+    m_Value: 0.035
+  sharpenMinMaxDepth:
+    <debugId>k__BackingField: sharpenMinMaxDepth
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0.999}
+    min: 0
+    max: 1.1
+  sharpenMinMaxDepthFallOff:
+    <debugId>k__BackingField: sharpenMinMaxDepthFallOff
+    m_OverrideState: 0
+    m_Value: 0
+  sharpenRelaxation:
+    <debugId>k__BackingField: sharpenRelaxation
+    m_OverrideState: 0
+    m_Value: 0.08
+  sharpenClamp:
+    <debugId>k__BackingField: sharpenClamp
+    m_OverrideState: 0
+    m_Value: 0.45
+  sharpenMotionSensibility:
+    <debugId>k__BackingField: sharpenMotionSensibility
+    m_OverrideState: 0
+    m_Value: 0.5
+  sharpenMotionRestoreSpeed:
+    <debugId>k__BackingField: sharpenMotionRestoreSpeed
+    m_OverrideState: 0
+    m_Value: 0.5
+  antialiasStrength:
+    <debugId>k__BackingField: antialiasStrength
+    m_OverrideState: 0
+    m_Value: 0
+  antialiasDepthThreshold:
+    <debugId>k__BackingField: antialiasDepthThreshold
+    m_OverrideState: 0
+    m_Value: 0.000001
+  antialiasSpread:
+    <debugId>k__BackingField: antialiasSpread
+    m_OverrideState: 0
+    m_Value: 3
+  antialiasDepthAttenuation:
+    <debugId>k__BackingField: antialiasDepthAttenuation
+    m_OverrideState: 0
+    m_Value: 0
+  tonemap:
+    <debugId>k__BackingField: tonemap
+    m_OverrideState: 1
+    m_Value: 1
+  tonemapAGXGamma:
+    <debugId>k__BackingField: tonemapAGXGamma
+    m_OverrideState: 0
+    m_Value: 2.5
+  tonemapMaxInputBrightness:
+    <debugId>k__BackingField: tonemapMaxInputBrightness
+    m_OverrideState: 0
+    m_Value: 1000
+  tonemapExposurePre:
+    <debugId>k__BackingField: tonemapExposurePre
+    m_OverrideState: 0
+    m_Value: 1
+  tonemapBrightnessPost:
+    <debugId>k__BackingField: tonemapBrightnessPost
+    m_OverrideState: 0
+    m_Value: 1
+  saturate:
+    <debugId>k__BackingField: saturate
+    m_OverrideState: 1
+    m_Value: 0
+  brightness:
+    <debugId>k__BackingField: brightness
+    m_OverrideState: 1
+    m_Value: 1.8
+  contrast:
+    <debugId>k__BackingField: contrast
+    m_OverrideState: 1
+    m_Value: 1
+  daltonize:
+    <debugId>k__BackingField: daltonize
+    m_OverrideState: 0
+    m_Value: 2
+  sepia:
+    <debugId>k__BackingField: sepia
+    m_OverrideState: 0
+    m_Value: 0
+  tintColor:
+    <debugId>k__BackingField: tintColor
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 0
+  colorTempBlend:
+    <debugId>k__BackingField: colorTempBlend
+    m_OverrideState: 0
+    m_Value: 0
+  colorTemp:
+    <debugId>k__BackingField: colorTemp
+    m_OverrideState: 0
+    m_Value: 6550
+  lut:
+    <debugId>k__BackingField: lut
+    m_OverrideState: 0
+    m_Value: 0
+  lutIntensity:
+    <debugId>k__BackingField: lutIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  lutTexture:
+    <debugId>k__BackingField: lutTexture
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  bloomIntensity:
+    <debugId>k__BackingField: bloomIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  bloomThreshold:
+    <debugId>k__BackingField: bloomThreshold
+    m_OverrideState: 0
+    m_Value: 0.75
+  bloomConservativeThreshold:
+    <debugId>k__BackingField: bloomConservativeThreshold
+    m_OverrideState: 0
+    m_Value: 0
+  bloomSpread:
+    <debugId>k__BackingField: bloomSpread
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomMaxBrightness:
+    <debugId>k__BackingField: bloomMaxBrightness
+    m_OverrideState: 0
+    m_Value: 1000
+  bloomTint:
+    <debugId>k__BackingField: bloomTint
+    m_OverrideState: 0
+    m_Value:
+      r: 0.5
+      g: 0.5
+      b: 1
+      a: 0
+  bloomDepthAtten:
+    <debugId>k__BackingField: bloomDepthAtten
+    m_OverrideState: 0
+    m_Value: 0
+  bloomNearAtten:
+    <debugId>k__BackingField: bloomNearAtten
+    m_OverrideState: 0
+    m_Value: 0
+  bloomExcludeLayers:
+    <debugId>k__BackingField: bloomExcludeLayers
+    m_OverrideState: 0
+    m_Value: 0
+  bloomLayersFilterMethod:
+    <debugId>k__BackingField: bloomLayersFilterMethod
+    m_OverrideState: 0
+    m_Value: 1
+  bloomExclusionLayerMask:
+    <debugId>k__BackingField: bloomExclusionLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 0
+  bloomAntiflicker:
+    <debugId>k__BackingField: bloomAntiflicker
+    m_OverrideState: 0
+    m_Value: 0
+  bloomResolution:
+    <debugId>k__BackingField: bloomResolution
+    m_OverrideState: 0
+    m_Value: 1
+  bloomQuickerBlur:
+    <debugId>k__BackingField: bloomQuickerBlur
+    m_OverrideState: 0
+    m_Value: 0
+  bloomCustomize:
+    <debugId>k__BackingField: bloomCustomize
+    m_OverrideState: 0
+    m_Value: 0
+  bloomWeight0:
+    <debugId>k__BackingField: bloomWeight0
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost0:
+    <debugId>k__BackingField: bloomBoost0
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint0:
+    <debugId>k__BackingField: bloomTint0
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  bloomWeight1:
+    <debugId>k__BackingField: bloomWeight1
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost1:
+    <debugId>k__BackingField: bloomBoost1
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint1:
+    <debugId>k__BackingField: bloomTint1
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  bloomWeight2:
+    <debugId>k__BackingField: bloomWeight2
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost2:
+    <debugId>k__BackingField: bloomBoost2
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint2:
+    <debugId>k__BackingField: bloomTint2
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  bloomWeight3:
+    <debugId>k__BackingField: bloomWeight3
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost3:
+    <debugId>k__BackingField: bloomBoost3
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint3:
+    <debugId>k__BackingField: bloomTint3
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  bloomWeight4:
+    <debugId>k__BackingField: bloomWeight4
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost4:
+    <debugId>k__BackingField: bloomBoost4
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint4:
+    <debugId>k__BackingField: bloomTint4
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  bloomWeight5:
+    <debugId>k__BackingField: bloomWeight5
+    m_OverrideState: 0
+    m_Value: 0.5
+  bloomBoost5:
+    <debugId>k__BackingField: bloomBoost5
+    m_OverrideState: 0
+    m_Value: 0
+  bloomTint5:
+    <debugId>k__BackingField: bloomTint5
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  anamorphicFlaresIntensity:
+    <debugId>k__BackingField: anamorphicFlaresIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresThreshold:
+    <debugId>k__BackingField: anamorphicFlaresThreshold
+    m_OverrideState: 0
+    m_Value: 0.75
+  anamorphicFlaresConservativeThreshold:
+    <debugId>k__BackingField: anamorphicFlaresConservativeThreshold
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresTint:
+    <debugId>k__BackingField: anamorphicFlaresTint
+    m_OverrideState: 0
+    m_Value:
+      r: 0.5
+      g: 0.5
+      b: 1
+      a: 0
+  anamorphicFlaresVertical:
+    <debugId>k__BackingField: anamorphicFlaresVertical
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresSpread:
+    <debugId>k__BackingField: anamorphicFlaresSpread
+    m_OverrideState: 0
+    m_Value: 1
+  anamorphicFlaresMaxBrightness:
+    <debugId>k__BackingField: anamorphicFlaresMaxBrightness
+    m_OverrideState: 0
+    m_Value: 1000
+  anamorphicFlaresDepthAtten:
+    <debugId>k__BackingField: anamorphicFlaresDepthAtten
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresNearAtten:
+    <debugId>k__BackingField: anamorphicFlaresNearAtten
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresExcludeLayers:
+    <debugId>k__BackingField: anamorphicFlaresExcludeLayers
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresLayersFilterMethod:
+    <debugId>k__BackingField: anamorphicFlaresLayersFilterMethod
+    m_OverrideState: 0
+    m_Value: 1
+  anamorphicFlaresExclusionLayerMask:
+    <debugId>k__BackingField: anamorphicFlaresExclusionLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 0
+  anamorphicFlaresAntiflicker:
+    <debugId>k__BackingField: anamorphicFlaresAntiflicker
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphicFlaresResolution:
+    <debugId>k__BackingField: anamorphicFlaresResolution
+    m_OverrideState: 0
+    m_Value: 1
+  anamorphicFlaresQuickerBlur:
+    <debugId>k__BackingField: anamorphicFlaresQuickerBlur
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresIntensity:
+    <debugId>k__BackingField: sunFlaresIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresTint:
+    <debugId>k__BackingField: sunFlaresTint
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  sunFlaresSolarWindSpeed:
+    <debugId>k__BackingField: sunFlaresSolarWindSpeed
+    m_OverrideState: 0
+    m_Value: 0.01
+  sunFlaresRotationDeadZone:
+    <debugId>k__BackingField: sunFlaresRotationDeadZone
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresDownsampling:
+    <debugId>k__BackingField: sunFlaresDownsampling
+    m_OverrideState: 0
+    m_Value: 1
+  sunFlaresDepthOcclusionMode:
+    <debugId>k__BackingField: sunFlaresDepthOcclusionMode
+    m_OverrideState: 0
+    m_Value: 1
+  sunFlaresDepthOcclusionThreshold:
+    <debugId>k__BackingField: sunFlaresDepthOcclusionThreshold
+    m_OverrideState: 0
+    m_Value: 0.5
+  sunFlaresUseLayerMask:
+    <debugId>k__BackingField: sunFlaresUseLayerMask
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresLayerMask:
+    <debugId>k__BackingField: sunFlaresLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 4294967295
+  sunFlaresAttenSpeed:
+    <debugId>k__BackingField: sunFlaresAttenSpeed
+    m_OverrideState: 0
+    m_Value: 30
+  sunFlaresSunIntensity:
+    <debugId>k__BackingField: sunFlaresSunIntensity
+    m_OverrideState: 0
+    m_Value: 0.1
+  sunFlaresSunDiskSize:
+    <debugId>k__BackingField: sunFlaresSunDiskSize
+    m_OverrideState: 0
+    m_Value: 0.05
+  sunFlaresSunRayDiffractionIntensity:
+    <debugId>k__BackingField: sunFlaresSunRayDiffractionIntensity
+    m_OverrideState: 0
+    m_Value: 3.5
+  sunFlaresSunRayDiffractionThreshold:
+    <debugId>k__BackingField: sunFlaresSunRayDiffractionThreshold
+    m_OverrideState: 0
+    m_Value: 0.13
+  sunFlaresCoronaRays1Length:
+    <debugId>k__BackingField: sunFlaresCoronaRays1Length
+    m_OverrideState: 0
+    m_Value: 0.02
+  sunFlaresCoronaRays1Streaks:
+    <debugId>k__BackingField: sunFlaresCoronaRays1Streaks
+    m_OverrideState: 0
+    m_Value: 12
+  sunFlaresCoronaRays1Spread:
+    <debugId>k__BackingField: sunFlaresCoronaRays1Spread
+    m_OverrideState: 0
+    m_Value: 0.001
+  sunFlaresCoronaRays1AngleOffset:
+    <debugId>k__BackingField: sunFlaresCoronaRays1AngleOffset
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresCoronaRays2Length:
+    <debugId>k__BackingField: sunFlaresCoronaRays2Length
+    m_OverrideState: 0
+    m_Value: 0.05
+  sunFlaresCoronaRays2Streaks:
+    <debugId>k__BackingField: sunFlaresCoronaRays2Streaks
+    m_OverrideState: 0
+    m_Value: 12
+  sunFlaresCoronaRays2Spread:
+    <debugId>k__BackingField: sunFlaresCoronaRays2Spread
+    m_OverrideState: 0
+    m_Value: 0.1
+  sunFlaresCoronaRays2AngleOffset:
+    <debugId>k__BackingField: sunFlaresCoronaRays2AngleOffset
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresGhosts1Size:
+    <debugId>k__BackingField: sunFlaresGhosts1Size
+    m_OverrideState: 0
+    m_Value: 0.03
+  sunFlaresGhosts1Offset:
+    <debugId>k__BackingField: sunFlaresGhosts1Offset
+    m_OverrideState: 0
+    m_Value: 1.04
+  sunFlaresGhosts1Brightness:
+    <debugId>k__BackingField: sunFlaresGhosts1Brightness
+    m_OverrideState: 0
+    m_Value: 0.037
+  sunFlaresGhosts2Size:
+    <debugId>k__BackingField: sunFlaresGhosts2Size
+    m_OverrideState: 0
+    m_Value: 0.1
+  sunFlaresGhosts2Offset:
+    <debugId>k__BackingField: sunFlaresGhosts2Offset
+    m_OverrideState: 0
+    m_Value: 0.71
+  sunFlaresGhosts2Brightness:
+    <debugId>k__BackingField: sunFlaresGhosts2Brightness
+    m_OverrideState: 0
+    m_Value: 0.03
+  sunFlaresGhosts3Size:
+    <debugId>k__BackingField: sunFlaresGhosts3Size
+    m_OverrideState: 0
+    m_Value: 0.24
+  sunFlaresGhosts3Offset:
+    <debugId>k__BackingField: sunFlaresGhosts3Offset
+    m_OverrideState: 0
+    m_Value: 0.31
+  sunFlaresGhosts3Brightness:
+    <debugId>k__BackingField: sunFlaresGhosts3Brightness
+    m_OverrideState: 0
+    m_Value: 0.025
+  sunFlaresGhosts4Size:
+    <debugId>k__BackingField: sunFlaresGhosts4Size
+    m_OverrideState: 0
+    m_Value: 0.016
+  sunFlaresGhosts4Offset:
+    <debugId>k__BackingField: sunFlaresGhosts4Offset
+    m_OverrideState: 0
+    m_Value: 0
+  sunFlaresGhosts4Brightness:
+    <debugId>k__BackingField: sunFlaresGhosts4Brightness
+    m_OverrideState: 0
+    m_Value: 0.017
+  sunFlaresHaloOffset:
+    <debugId>k__BackingField: sunFlaresHaloOffset
+    m_OverrideState: 0
+    m_Value: 0.22
+  sunFlaresHaloAmplitude:
+    <debugId>k__BackingField: sunFlaresHaloAmplitude
+    m_OverrideState: 0
+    m_Value: 15.1415
+  sunFlaresHaloIntensity:
+    <debugId>k__BackingField: sunFlaresHaloIntensity
+    m_OverrideState: 0
+    m_Value: 0.01
+  lensDirtIntensity:
+    <debugId>k__BackingField: lensDirtIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  lensDirtThreshold:
+    <debugId>k__BackingField: lensDirtThreshold
+    m_OverrideState: 0
+    m_Value: 0.5
+  lensDirtTexture:
+    <debugId>k__BackingField: lensDirtTexture
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  lensDirtSpread:
+    <debugId>k__BackingField: lensDirtSpread
+    m_OverrideState: 0
+    m_Value: 3
+  chromaticAberrationIntensity:
+    <debugId>k__BackingField: chromaticAberrationIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  chromaticAberrationShift:
+    <debugId>k__BackingField: chromaticAberrationShift
+    m_OverrideState: 0
+    m_Value: 0
+  chromaticAberrationSmoothing:
+    <debugId>k__BackingField: chromaticAberrationSmoothing
+    m_OverrideState: 0
+    m_Value: 0
+  chromaticAberrationSeparatePass:
+    <debugId>k__BackingField: chromaticAberrationSeparatePass
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfField:
+    <debugId>k__BackingField: depthOfField
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldFocusMode:
+    <debugId>k__BackingField: depthOfFieldFocusMode
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAutofocusMinDistance:
+    <debugId>k__BackingField: depthOfFieldAutofocusMinDistance
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAutofocusMaxDistance:
+    <debugId>k__BackingField: depthOfFieldAutofocusMaxDistance
+    m_OverrideState: 0
+    m_Value: 10000
+  depthOfFieldTargetFallback:
+    <debugId>k__BackingField: depthOfFieldTargetFallback
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldTargetFallbackFixedDistance:
+    <debugId>k__BackingField: depthOfFieldTargetFallbackFixedDistance
+    m_OverrideState: 0
+    m_Value: 1000
+  depthOfFieldAutofocusViewportPoint:
+    <debugId>k__BackingField: depthOfFieldAutofocusViewportPoint
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  depthOfFieldAutofocusDistanceShift:
+    <debugId>k__BackingField: depthOfFieldAutofocusDistanceShift
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAutofocusLayerMask:
+    <debugId>k__BackingField: depthOfFieldAutofocusLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 4294967295
+  depthOfFieldDistance:
+    <debugId>k__BackingField: depthOfFieldDistance
+    m_OverrideState: 1
+    m_Value: 2.47
+  depthOfFieldCameraSettings:
+    <debugId>k__BackingField: depthOfFieldCameraSettings
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldFocalLength:
+    <debugId>k__BackingField: depthOfFieldFocalLength
+    m_OverrideState: 0
+    m_Value: 0.05
+  depthOfFieldAperture:
+    <debugId>k__BackingField: depthOfFieldAperture
+    m_OverrideState: 0
+    m_Value: 2.8
+  depthOfFieldFocalLengthReal:
+    <debugId>k__BackingField: depthOfFieldFocalLengthReal
+    m_OverrideState: 0
+    m_Value: 50
+  depthOfFieldFStop:
+    <debugId>k__BackingField: depthOfFieldFStop
+    m_OverrideState: 0
+    m_Value: 2
+  depthOfFieldImageSensorHeight:
+    <debugId>k__BackingField: depthOfFieldImageSensorHeight
+    m_OverrideState: 0
+    m_Value: 24
+  depthOfFieldFocusSpeed:
+    <debugId>k__BackingField: depthOfFieldFocusSpeed
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldTransparentSupport:
+    <debugId>k__BackingField: depthOfFieldTransparentSupport
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldTransparentLayerMask:
+    <debugId>k__BackingField: depthOfFieldTransparentLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 1
+  depthOfFieldTransparentDoubleSided:
+    <debugId>k__BackingField: depthOfFieldTransparentDoubleSided
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAlphaTestSupport:
+    <debugId>k__BackingField: depthOfFieldAlphaTestSupport
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldAlphaTestLayerMask:
+    <debugId>k__BackingField: depthOfFieldAlphaTestLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 1
+  depthOfFieldAlphaTestDoubleSided:
+    <debugId>k__BackingField: depthOfFieldAlphaTestDoubleSided
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldForegroundBlur:
+    <debugId>k__BackingField: depthOfFieldForegroundBlur
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldForegroundBlurHQ:
+    <debugId>k__BackingField: depthOfFieldForegroundBlurHQ
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldForegroundBlurHQSpread:
+    <debugId>k__BackingField: depthOfFieldForegroundBlurHQSpread
+    m_OverrideState: 0
+    m_Value: 4
+  depthOfFieldForegroundDistance:
+    <debugId>k__BackingField: depthOfFieldForegroundDistance
+    m_OverrideState: 0
+    m_Value: 0.25
+  depthOfFieldBokeh:
+    <debugId>k__BackingField: depthOfFieldBokeh
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldBokehComposition:
+    <debugId>k__BackingField: depthOfFieldBokehComposition
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldBokehThreshold:
+    <debugId>k__BackingField: depthOfFieldBokehThreshold
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldBokehIntensity:
+    <debugId>k__BackingField: depthOfFieldBokehIntensity
+    m_OverrideState: 0
+    m_Value: 2
+  depthOfFieldDownsampling:
+    <debugId>k__BackingField: depthOfFieldDownsampling
+    m_OverrideState: 0
+    m_Value: 2
+  depthOfFieldMaxSamples:
+    <debugId>k__BackingField: depthOfFieldMaxSamples
+    m_OverrideState: 0
+    m_Value: 6
+  depthOfFieldMaxBrightness:
+    <debugId>k__BackingField: depthOfFieldMaxBrightness
+    m_OverrideState: 0
+    m_Value: 1000
+  depthOfFieldMaxBlurRadius:
+    <debugId>k__BackingField: depthOfFieldMaxBlurRadius
+    m_OverrideState: 0
+    m_Value: 1000
+  depthOfFieldResolutionInvariant:
+    <debugId>k__BackingField: depthOfFieldResolutionInvariant
+    m_OverrideState: 0
+    m_Value: 0
+  depthOfFieldMaxDistance:
+    <debugId>k__BackingField: depthOfFieldMaxDistance
+    m_OverrideState: 0
+    m_Value: 1
+  depthOfFieldFilterMode:
+    <debugId>k__BackingField: depthOfFieldFilterMode
+    m_OverrideState: 0
+    m_Value: 1
+  eyeAdaptation:
+    <debugId>k__BackingField: eyeAdaptation
+    m_OverrideState: 0
+    m_Value: 0
+  eyeAdaptationMinExposure:
+    <debugId>k__BackingField: eyeAdaptationMinExposure
+    m_OverrideState: 0
+    m_Value: 0.2
+  eyeAdaptationMaxExposure:
+    <debugId>k__BackingField: eyeAdaptationMaxExposure
+    m_OverrideState: 0
+    m_Value: 5
+  eyeAdaptationSpeedToLight:
+    <debugId>k__BackingField: eyeAdaptationSpeedToLight
+    m_OverrideState: 0
+    m_Value: 0.4
+  eyeAdaptationSpeedToDark:
+    <debugId>k__BackingField: eyeAdaptationSpeedToDark
+    m_OverrideState: 0
+    m_Value: 0.2
+  eyeAdaptationMeteringMode:
+    <debugId>k__BackingField: eyeAdaptationMeteringMode
+    m_OverrideState: 0
+    m_Value: 0
+  eyeAdaptationMinCameraDistance:
+    <debugId>k__BackingField: eyeAdaptationMinCameraDistance
+    m_OverrideState: 0
+    m_Value: 0
+  eyeAdaptationMask:
+    <debugId>k__BackingField: eyeAdaptationMask
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  purkinje:
+    <debugId>k__BackingField: purkinje
+    m_OverrideState: 0
+    m_Value: 0
+  purkinjeAmount:
+    <debugId>k__BackingField: purkinjeAmount
+    m_OverrideState: 0
+    m_Value: 1
+  purkinjeLuminanceThreshold:
+    <debugId>k__BackingField: purkinjeLuminanceThreshold
+    m_OverrideState: 0
+    m_Value: 0.15
+  vignettingOuterRing:
+    <debugId>k__BackingField: vignettingOuterRing
+    m_OverrideState: 1
+    m_Value: 0.31
+  vignettingInnerRing:
+    <debugId>k__BackingField: vignettingInnerRing
+    m_OverrideState: 1
+    m_Value: 0.816
+  vignettingFade:
+    <debugId>k__BackingField: vignettingFade
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingCircularShape:
+    <debugId>k__BackingField: vignettingCircularShape
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingCircularShapeFitMode:
+    <debugId>k__BackingField: vignettingCircularShapeFitMode
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingAspectRatio:
+    <debugId>k__BackingField: vignettingAspectRatio
+    m_OverrideState: 0
+    m_Value: 1
+  vignettingBlink:
+    <debugId>k__BackingField: vignettingBlink
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingBlinkStyle:
+    <debugId>k__BackingField: vignettingBlinkStyle
+    m_OverrideState: 0
+    m_Value: 0
+  vignettingCenter:
+    <debugId>k__BackingField: vignettingCenter
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  vignettingColor:
+    <debugId>k__BackingField: vignettingColor
+    m_OverrideState: 1
+    m_Value:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  vignettingMask:
+    <debugId>k__BackingField: vignettingMask
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  outline:
+    <debugId>k__BackingField: outline
+    m_OverrideState: 0
+    m_Value: 0
+  outlineColor:
+    <debugId>k__BackingField: outlineColor
+    m_OverrideState: 0
+    m_Value:
+      r: 0
+      g: 0
+      b: 0
+      a: 0.8
+  outlineTechnique:
+    <debugId>k__BackingField: outlineTechnique
+    m_OverrideState: 0
+    m_Value: 0
+  outlineMinSeparation:
+    <debugId>k__BackingField: outlineMinSeparation
+    m_OverrideState: 0
+    m_Value: 1
+  outlineThreshold:
+    <debugId>k__BackingField: outlineThreshold
+    m_OverrideState: 0
+    m_Value: 0.2
+  outlineMinDepthThreshold:
+    <debugId>k__BackingField: outlineMinDepthThreshold
+    m_OverrideState: 0
+    m_Value: 0.0005
+  outlineSaturationDiffThreshold:
+    <debugId>k__BackingField: outlineSaturationDiffThreshold
+    m_OverrideState: 0
+    m_Value: 0.015
+  outlineCustomize:
+    <debugId>k__BackingField: outlineCustomize
+    m_OverrideState: 0
+    m_Value: 0
+  outlineLayerMask:
+    <debugId>k__BackingField: outlineLayerMask
+    m_OverrideState: 0
+    m_Value:
+      m_Bits: 4294967295
+  outlineStageParameter:
+    <debugId>k__BackingField: outlineStageParameter
+    m_OverrideState: 0
+    m_Value: 0
+  outlineSpread:
+    <debugId>k__BackingField: outlineSpread
+    m_OverrideState: 0
+    m_Value: 1
+  outlineBlurPassCount:
+    <debugId>k__BackingField: outlineBlurPassCount
+    m_OverrideState: 0
+    m_Value: 1
+  outlineBlurDownscale:
+    <debugId>k__BackingField: outlineBlurDownscale
+    m_OverrideState: 0
+    m_Value: 0
+  outlineIntensityMultiplier:
+    <debugId>k__BackingField: outlineIntensityMultiplier
+    m_OverrideState: 0
+    m_Value: 1
+  outlineDistanceFade:
+    <debugId>k__BackingField: outlineDistanceFade
+    m_OverrideState: 0
+    m_Value: 0
+  outlineUsesOptimizedShader:
+    <debugId>k__BackingField: outlineUsesOptimizedShader
+    m_OverrideState: 0
+    m_Value: 0
+  outlineLayerCutOff:
+    <debugId>k__BackingField: outlineLayerCutOff
+    m_OverrideState: 0
+    m_Value: 0
+  nightVision:
+    <debugId>k__BackingField: nightVision
+    m_OverrideState: 0
+    m_Value: 0
+  nightVisionColor:
+    <debugId>k__BackingField: nightVisionColor
+    m_OverrideState: 0
+    m_Value:
+      r: 0.5
+      g: 1
+      b: 0.5
+      a: 0.5
+  nightVisionDepth:
+    <debugId>k__BackingField: nightVisionDepth
+    m_OverrideState: 0
+    m_Value: 100000
+  nightVisionDepthFallOff:
+    <debugId>k__BackingField: nightVisionDepthFallOff
+    m_OverrideState: 0
+    m_Value: 1
+  thermalVision:
+    <debugId>k__BackingField: thermalVision
+    m_OverrideState: 0
+    m_Value: 0
+  thermalVisionScanLines:
+    <debugId>k__BackingField: thermalVisionScanLines
+    m_OverrideState: 0
+    m_Value: 1
+  thermalVisionDistortionAmount:
+    <debugId>k__BackingField: thermalVisionDistortionAmount
+    m_OverrideState: 0
+    m_Value: 9
+  ditherIntensity:
+    <debugId>k__BackingField: ditherIntensity
+    m_OverrideState: 1
+    m_Value: 0.006
+  frame:
+    <debugId>k__BackingField: frame
+    m_OverrideState: 0
+    m_Value: 0
+  frameStyle:
+    <debugId>k__BackingField: frameStyle
+    m_OverrideState: 0
+    m_Value: 0
+  frameBandHorizontalSize:
+    <debugId>k__BackingField: frameBandHorizontalSize
+    m_OverrideState: 0
+    m_Value: 0
+  frameBandHorizontalSmoothness:
+    <debugId>k__BackingField: frameBandHorizontalSmoothness
+    m_OverrideState: 0
+    m_Value: 0
+  frameBandVerticalSize:
+    <debugId>k__BackingField: frameBandVerticalSize
+    m_OverrideState: 0
+    m_Value: 0.1
+  frameBandVerticalSmoothness:
+    <debugId>k__BackingField: frameBandVerticalSmoothness
+    m_OverrideState: 0
+    m_Value: 0
+  frameColor:
+    <debugId>k__BackingField: frameColor
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 0.047
+  frameMask:
+    <debugId>k__BackingField: frameMask
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  blurIntensity:
+    <debugId>k__BackingField: blurIntensity
+    m_OverrideState: 0
+    m_Value: 0
+  blurMask:
+    <debugId>k__BackingField: blurMask
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  blurKeepSourceOnTop:
+    <debugId>k__BackingField: blurKeepSourceOnTop
+    m_OverrideState: 0
+    m_Value: 0
+  blurSourceRect:
+    <debugId>k__BackingField: blurSourceRect
+    m_OverrideState: 0
+    m_Value: {x: 0.1, y: 0.1, z: 0.8, w: 0.8}
+  blurSourceEdgeBlendWidth:
+    <debugId>k__BackingField: blurSourceEdgeBlendWidth
+    m_OverrideState: 0
+    m_Value: 0
+  blurSourceEdgeBlendStrength:
+    <debugId>k__BackingField: blurSourceEdgeBlendStrength
+    m_OverrideState: 0
+    m_Value: 20
+  downsamplingUsed: -1
+--- !u!114 &3844091125768394114
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+  m_Name: Tonemapping
+  m_EditorClassIdentifier: 
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 2
+  neutralHDRRangeReductionMode:
+    m_OverrideState: 0
+    m_Value: 2
+  acesPreset:
+    m_OverrideState: 0
+    m_Value: 3
+  hueShiftAmount:
+    m_OverrideState: 0
+    m_Value: 0
+  detectPaperWhite:
+    m_OverrideState: 0
+    m_Value: 0
+  paperWhite:
+    m_OverrideState: 0
+    m_Value: 300
+  detectBrightnessLimits:
+    m_OverrideState: 0
+    m_Value: 1
+  minNits:
+    m_OverrideState: 0
+    m_Value: 0.005
+  maxNits:
+    m_OverrideState: 0
+    m_Value: 1000
+--- !u!114 &4811493972342730473
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: 
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: -0.4093437}
+  midtones:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0.07119016}
+  highlights:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  shadowsStart:
+    m_OverrideState: 0
+    m_Value: 0
+  shadowsEnd:
+    m_OverrideState: 0
+    m_Value: 0.3
+  highlightsStart:
+    m_OverrideState: 0
+    m_Value: 0.55
+  highlightsEnd:
+    m_OverrideState: 0
+    m_Value: 1

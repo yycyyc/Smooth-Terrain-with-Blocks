@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a707ae1b1c5a26458f4917c426195cf
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TerrainAlbedo: {instanceID: 0}
+  - _TerrainAlbedo2: {instanceID: 0}
+  - _TerrainNormal: {instanceID: 0}
+  - _TerrainNormal2: {instanceID: 0}
+  - _TerrainHeight: {instanceID: 0}
+  - _TerrainHeight2: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
